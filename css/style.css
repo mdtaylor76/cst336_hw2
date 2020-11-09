@@ -1,0 +1,17 @@
+#top {
+    background-color: #E39368;
+}
+
+h1 {
+    color: #28170E;
+}
+
+#available {
+    background-color: #F1C7B1;
+    margin: 0px;
+}
+
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: orange;
+}
