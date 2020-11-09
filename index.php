@@ -54,7 +54,7 @@
                 
                 function addItem(itemName, itemCost) {
                     
-                    var addItemStraing = `<tr class="table-row"><td>${newItemName}</td><td>${newItemCost}</td><td><input type="button" value="Delete" class="delete"></td></tr>`
+                    var addItemStraing = `<tr class="table-row"><td> <label for"item">${newItemName}</label></td><td><label for"cost">${newItemCost}</label></td><td><input type="button" value="Delete" class="delete"></td></tr>`
                     console.log(addItemStraing);
                     $("#itemTable").append(addItemStraing);
                     
