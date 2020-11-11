@@ -1,17 +1,60 @@
+body {
+    background-color: #C25B23;
+}
 #top {
     background-color: #E39368;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 h1 {
     color: #28170E;
 }
 
-#available {
+#workspace {
     background-color: #F1C7B1;
+    margin: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#header {
     margin: 0px;
 }
 
-
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
   background-color: orange;
+}
+
+#itemTable {
+    position: relative;
+    width: 50%;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+#shoppingCartList {
+    position: relative;
+    width: 35%;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+#totalSpent {
+    width: 35%;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+.warning {
+    color: #6C3314;   
+}
+
+#foot {
+    font-size: .75em;
+    background-color: #28170E;
+    color: #F1C7B1;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
 }
